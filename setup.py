@@ -103,7 +103,7 @@ setup(
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
     entry_points={
-         'console_scripts': ['ovh-zone=sendgrid_ovh.__main__:cli'],
+         'console_scripts': ['sendgrid-ovh=sendgrid_ovh.__main__:cli'],
     },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
