@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  python:
+    build:
+      dockerfile: ./Dockerfile
+    env_file:
+      - sendgrid.env
+    volumes:
+      - ./:/app

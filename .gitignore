@@ -1,0 +1,11 @@
+/.blackbox/pubring.gpg~
+/.blackbox/pubring.kbx~
+/.blackbox/secring.gpg
+/sendgrid.env
+__pycache__/
+/dist
+/build
+*.egg-info
+.coverage
+coverage.xml
+/.venv
